@@ -1,0 +1,86 @@
+body{
+    background-image: url("images/pattern-background-desktop.svg");
+    text-align: center;
+}
+
+.card{
+   background-color: white;
+    height: 550px;
+    width: 350px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow:0 0 20px ;
+   
+}
+/* main div card css end*/
+
+#hero-img{
+    width: 350px; 
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+.sumry {
+    margin-top: 3px;
+    text-align: center;
+
+}
+#od{
+    color: hsl(223, 47%, 23%);
+}
+#od1{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+/* order summary div end */
+ 
+
+.plan{
+
+     display: flex;
+     justify-content: space-around;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     background-color: hsl(225, 100%, 98%);
+     margin-left: 10px;
+     margin-right: 10px;
+     border-radius: 30px;
+
+}
+.plan img{
+    height:40px;
+    margin-top: 15px;
+}
+.plan p{
+    margin-right: 100px;
+    color:hsl(224, 23%, 55%) ;
+}
+.plan a{
+         padding-top: 20px;
+         padding-right: 20px;
+}
+
+
+/* plan section end */
+
+
+#btn{
+
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    width: 300px;
+    border-radius: 12px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+#cancle{
+    color:hsl(224, 23%, 55%) ;
+}
